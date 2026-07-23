@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>亞洲水泥｜2026 廈門員旅</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<header class="topbar">
+<h1>🇨🇳 亞洲水泥｜廈門員旅</h1>
+</header>
+
+<main class="container">
+<section class="hero">
+<h2>2026 員工旅遊</h2>
+<p>第一梯｜Day 1</p>
+<button id="startBtn">開始旅程</button>
+</section>
+
+<section class="dashboard">
+<div class="card"><h3>22</h3><span>景點</span></div>
+<div class="card"><h3>3</h3><span>天數</span></div>
+<div class="card"><h3>45</h3><span>團員</span></div>
+<div class="card"><h3 id="progress">60%</h3><span>完成率</span></div>
+</section>
+
+<section class="quick-menu">
+<div>🗺<br>地圖</div>
+<div>📅<br>行程</div>
+<div>📍<br>景點</div>
+<div>🏨<br>飯店</div>
+<div>🍜<br>美食</div>
+</section>
+
+<section class="journey card">
+<h2>今日控制中心</h2>
+<p><strong>目前：</strong>五通碼頭</p>
+<p><strong>下一站：</strong>鼓浪嶼（ETA 13:30）</p>
+<div class="bar"><div class="fill"></div></div>
+</section>
+
+<section class="card">
+<h2>地圖</h2>
+<div id="map"></div>
+</section>
+
+<section class="card">
+<h2>今日行程</h2>
+<ul class="schedule">
+<li>✔ 08:00 松山機場</li>
+<li>✔ 09:40 金門港</li>
+<li>● 11:20 五通碼頭</li>
+<li>○ 13:30 鼓浪嶼</li>
+<li>○ 18:00 中山路</li>
+</ul>
+</section>
+</main>
+
+<nav class="bottom-nav">
+<a>首頁</a><a>地圖</a><a>行程</a><a>景點</a><a>更多</a>
+</nav>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
